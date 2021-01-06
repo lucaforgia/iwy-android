@@ -1,0 +1,73 @@
+MEMO
+
+- in home, mostriamo solo attive, recenti(ultima), e prossime (intuitive ia)
+
+- quindi il bottone a destra va al listato di TUTTE le attività
+
+
+
+COSA IMPLEMENTARE:
+
+- schedule? Mah... Forse non ha senso, perché lo scopo della app è di tenere traccia di ciò che si fa realmente, non di organizzarsi. Al limite si potrebbbe fare un'altra app che usi lo stesso db e dati e poi organizzi sul iwy? Ha più senso. Anche perché sembra una cosa online... a pagamento!
+
+- goals? Avrebbe senso? Forse solo se mettiamo anche lo schedule... Ma direi di no?
+
+- timer? Tipo, devo fare almeno 10 minuti di sta roba? Forse ha senso sempre solo con lo schedule.
+
+- statistiche: divise per mesili, settimanali, etc. Nel senso di statistiche totali, con listate tutte le attività e i tempi.
+
+- iniziare una nuova sessione esplicitamente? Non vedo perché a onor del vero, visto che la facciamo scadere dopo poco o se inizi qualcosaltro...
+
+- e se lo schedule e history fosse una cosa esterna all'app? Nel senso, per creare lo schedule usare o un'altra app, da pc preferibilmente, che col cellulare diventa na merda, o usando un semplice foglio calc o un json o un testo parsato in modo specifico. La librari stessa cosa, potrebbe creare un file e poi che tu ti incluli a leggerlo, che su un cellulare si legge comunque demmerda?
+
+- avvisi push se si lascia la app aperta. Scegliere il tempo nel settings, oppure ha senso anche per attività. Ci sono attività durante le quali non vuoi essere disturbato, no? Ma boh, a quel punto se non vuoi rotture di balle disattivi le notifiche di tutto? Mmm.
+
+
+##############################################################################################################
+
+
+STAT INFO attività:
+- primo start attività
+- ultima sessione data
+- ultima sessione tempo
+- tempo totale
+- numero di sessioni
+- media tempo per sessione (calcolata)
+- medie settimana ? Quindi ci serve: tempo per settimana, sessioni a settimana, e un campo tabella per tenere i dati della settimana passata (no, quando inizia la settimana semplicemente mandiamo un messaggio)?
+
+
+STAT INFO GLOBALI
+- numero attività
+- tempo totale traccato
+- numero di giorni tracciati
+- media tempo tracciato per giorno
+- per ogni attività -> tutti i dati relativi
+
+
+
+STAT ONLINE (potenzialmente pagamento)
+- stat giorno per giorno, tracciando ogni singola transazione (una chiamata server ogni transazione)
+- quindi hai tutte le medie che vuoi, mese, anno, da che giorno a che giorno
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
